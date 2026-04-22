@@ -1,9 +1,7 @@
 import pandas as pd
 
-# Load dataset
 dataset = pd.read_csv('scopus.csv')
 
-# Basic info
 print("\nFirst 5 rows:")
 print(dataset.head())
 
